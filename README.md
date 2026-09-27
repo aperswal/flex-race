@@ -1,6 +1,6 @@
 # flex-race
 
-For agents and coding tools, or to race Gemini and Claude models too, use the hosted version at [flexinference.com](https://flexinference.com). It speaks the OpenAI, Anthropic, and Gemini APIs, so an agent points its base URL at it with no code change. It races Gemini's flex tier and Anthropic's batch tier, and both tiers are priced at half the standard rate. Claude requests race only on FlexInference managed keys, without streaming, and only when the deadline allows three to ten minutes.
+If you want to save 48% when using Codex OpenClaw or Cursor and also want to save on Claude and Gemini models then check out https://flexinference.com
 
 flex-race lets your app try OpenAI's flex tier with a set wait for it to start. If flex takes too long or fails before it starts, the wrapper sends the request to the default tier. This gives your app a way to use flex while limiting the wait for flex to accept the work. The [wrapper](src/with-flex.ts) adds start_by to responses.create on an OpenAI client.
 
