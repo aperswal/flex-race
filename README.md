@@ -4,19 +4,11 @@ flex-race lets your app try OpenAI's flex tier with a set wait for it to start. 
 
 ## Install
 
-The [package](package.json) needs Node.js 20 or later and openai 6 or later. It exports an ES module. Each release on GitHub carries a built tarball. Install the tarball and the OpenAI SDK in your app:
+The [package](package.json) needs Node.js 20 or later and openai 6 or later. It exports an ES module. Install it and the OpenAI SDK from npm:
 
 ```sh
-npm install https://github.com/aperswal/flex-race/releases/download/v0.1.0/flex-race-0.1.0.tgz openai
+npm install flex-race openai
 npm install --save-dev tsx
-```
-
-To build a tarball from this repo instead, run these commands:
-
-```sh
-pnpm install
-pnpm build
-pnpm pack
 ```
 
 ## Usage

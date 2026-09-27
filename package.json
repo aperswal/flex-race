@@ -3,6 +3,22 @@
   "version": "0.1.0",
   "description": "Race OpenAI's flex tier against a deadline on the Responses API, falling back to the default tier.",
   "license": "MIT",
+  "author": "Aditya Perswal",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aperswal/flex-race.git"
+  },
+  "homepage": "https://github.com/aperswal/flex-race#readme",
+  "bugs": {
+    "url": "https://github.com/aperswal/flex-race/issues"
+  },
+  "keywords": [
+    "openai",
+    "flex",
+    "service_tier",
+    "responses",
+    "deadline"
+  ],
   "type": "module",
   "exports": {
     ".": {
