@@ -1,6 +1,6 @@
 {
   "name": "flex-race",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Race OpenAI's flex tier against a deadline on the Responses API, falling back to the default tier.",
   "license": "MIT",
   "author": "Aditya Perswal",
